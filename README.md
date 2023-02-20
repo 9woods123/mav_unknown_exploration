@@ -1,10 +1,15 @@
+
+
+
 ![Build Tests (Ubuntu 18.04 + ROS Melodic, Ubuntu 20.04 + ROS Noetic)](https://github.com/ethz-asl/mav_active_3d_planning/actions/workflows/build_test.yml/badge.svg)
 # mav\_active\_3d\_planning
 **mav\_active\_3d\_planning** is a modular framework for online informative path planner (IPP) design. 
-We provide a modular framework for creating, evaluating and employing primarily sampling based, receding horizon algorithms that optimize a gain while minimizing a cost.
 
+Based on great work of Lukas Schmid who provides a modular framework for creating, evaluating and employing primarily sampling based, receding horizon algorithms that optimize a gain while minimizing a cost. 
 
-Uploading test.mp4…
+We make the motion smoother by using local planner and trajectory optimizer, and test it in GAZEBO. The experiment video is as following:
+
+https://user-images.githubusercontent.com/78521063/220043048-22541d99-4bff-4c22-9a14-28c1d1943787.mp4
 
 
 **Setup**
@@ -29,6 +34,10 @@ For additional information please see the [wiki](https://github.com/ethz-asl/mav
 ## Paper and Video
 If you find this package useful for your research, please consider citing our paper:
 
+
+
+
+
 * Lukas Schmid, Michael Pantic, Raghav Khanna, Lionel Ott, Roland Siegwart, and Juan Nieto, "**An Efficient Sampling-based Method for Online Informative Path Planning in Unknown Environments**", in *IEEE Robotics and Automation Letters*, vol. 5, no. 2, pp. 1500-1507, April 2020 [[IEEE](https://ieeexplore.ieee.org/abstract/document/8968434) | [ArXiv](https://arxiv.org/abs/1909.09548) | [Video](https://www.youtube.com/watch?v=lEadqJ1_8Do)]
   ```bibtex
   @ARTICLE{Schmid20ActivePlanning,
@@ -43,6 +52,22 @@ If you find this package useful for your research, please consider citing our pa
     doi={10.1109/LRA.2020.2969191},
     ISSN={2377-3774},
     month={April},
+  }
+  ```
+   ```
+  @Article{s22218429,
+  AUTHOR = {Yu, Tianyou and Deng, Baosong and Gui, Jianjun and Zhu, Xiaozhou and Yao, Wen},
+  TITLE = {Efficient Informative Path Planning via Normalized Utility in Unknown Environments Exploration},
+  JOURNAL = {Sensors},
+  VOLUME = {22},
+  YEAR = {2022},
+  NUMBER = {21},
+  ARTICLE-NUMBER = {8429},
+  URL = {https://www.mdpi.com/1424-8220/22/21/8429},
+  PubMedID = {36366127},
+  ISSN = {1424-8220},
+  ABSTRACT = {Exploration is an important aspect of autonomous robotics, whether it is for target searching, rescue missions, or reconnaissance in an unknown environment. In this paper, we propose a solution to efficiently explore the unknown environment by unmanned aerial vehicles (UAV). Innovatively, a topological road map is incrementally built based on Rapidly-exploring Random Tree (RRT) and maintained along with the whole exploration process. The topological structure can provide a set of waypoints for searching an optimal informative path. To evaluate the path, we consider the information measurement based on prior map uncertainty and the distance cost of the path, and formulate a normalized utility to describe information-richness along the path. The informative path is determined in every period by a local planner, and the robot executes the planned path to collect measurements of the unknown environment and restructure a map. The proposed framework and its composed modules are verified in two 3-D environments, which exhibit better performance in improving the exploration efficiency than other methods.},
+  DOI = {10.3390/s22218429}
   }
   ```
   
