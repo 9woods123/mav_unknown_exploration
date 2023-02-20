@@ -4,10 +4,8 @@
 We provide a modular framework for creating, evaluating and employing primarily sampling based, receding horizon algorithms that optimize a gain while minimizing a cost.
 
 
+Uploading test.mp4…
 
-# Table of Contents
-**Credits**
-* [Paper and Video](#Paper-and-Video)
 
 **Setup**
 * [Packages](#Packages)
