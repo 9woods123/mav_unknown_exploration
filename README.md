@@ -120,8 +120,8 @@ sudo apt-get install python-wstool python-catkin-tools
 
 3. Download repo using a SSH key or via HTTPS: 
 ```shell script
-git clone git@github.com:ethz-asl/mav_active_3d_planning.git # SSH
-git clone https://github.com/ethz-asl/mav_active_3d_planning.git # HTTPS
+git clone git@github.com:9woods123/mav_unknown_exploration.git # SSH
+git clone https://github.com/9woods123/mav_unknown_exploration.git # HTTPS
 ```
 
 4. Download and install the dependencies of the packages you intend to use.
