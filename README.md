@@ -32,13 +32,8 @@ For additional information please see the [wiki](https://github.com/ethz-asl/mav
 
 # Credits
 ## Paper and Video
-If you find this package useful for your research, please consider citing our paper:
+If you find this package useful for your research, please consider citing the following  papers:
 
-
-
-
-
-* Lukas Schmid, Michael Pantic, Raghav Khanna, Lionel Ott, Roland Siegwart, and Juan Nieto, "**An Efficient Sampling-based Method for Online Informative Path Planning in Unknown Environments**", in *IEEE Robotics and Automation Letters*, vol. 5, no. 2, pp. 1500-1507, April 2020 [[IEEE](https://ieeexplore.ieee.org/abstract/document/8968434) | [ArXiv](https://arxiv.org/abs/1909.09548) | [Video](https://www.youtube.com/watch?v=lEadqJ1_8Do)]
   ```bibtex
   @ARTICLE{Schmid20ActivePlanning,
     author={L. {Schmid} and M. {Pantic} and R. {Khanna} and L. {Ott} and R. {Siegwart} and J. {Nieto}},
@@ -56,9 +51,9 @@ If you find this package useful for your research, please consider citing our pa
   ```
    ```
   @Article{s22218429,
-  AUTHOR = {Yu, Tianyou and Deng, Baosong and Gui, Jianjun and Zhu, Xiaozhou and Yao, Wen},
-  TITLE = {Efficient Informative Path Planning via Normalized Utility in Unknown Environments Exploration},
-  JOURNAL = {Sensors},
+  author = {Yu, Tianyou and Deng, Baosong and Gui, Jianjun and Zhu, Xiaozhou and Yao, Wen},
+  title = {Efficient Informative Path Planning via Normalized Utility in Unknown Environments Exploration},
+  journal = {Sensors},
   VOLUME = {22},
   YEAR = {2022},
   NUMBER = {21},
