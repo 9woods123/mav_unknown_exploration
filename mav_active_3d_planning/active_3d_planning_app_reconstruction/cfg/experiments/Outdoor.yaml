@@ -1,0 +1,34 @@
+# Experiment (City Building) specific parameters
+
+# Bounding boxes (in initialization frame, relative to PlayerStart)
+
+## using to constrain the point sampling process 
+map_bounding_volume:
+
+
+  x_min: -15
+  x_max: 15
+  y_min: -15
+  y_max: 15
+  z_min: 1
+  z_max: 2.5
+
+
+
+## using to evaluate viewpoint
+
+target_bounding_volume:
+
+  x_min: -15
+  x_max: 15
+  y_min: -15
+  y_max: 15
+  z_min: 1
+  z_max: 2.5
+
+# System Constraints
+planner:
+  system_constraints:
+    v_max: 2.5
+    a_max: 2.0
+    yaw_rate_max: 5

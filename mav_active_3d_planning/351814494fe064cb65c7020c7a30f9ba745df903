@@ -1,0 +1,1556 @@
+[33mcommit 351814494fe064cb65c7020c7a30f9ba745df903[m[33m ([m[1;36mHEAD -> [m[1;32mFeasibleRRTStar_Problem_Fixed[m[33m, [m[1;31morigin/FeasibleRRTStar_Problem_Fixed[m[33m, [m[1;32mwoods-branch[m[33m)[m
+Author: woods <2726914442@qq.com>
+Date:   Tue Mar 15 10:19:53 2022 +0800
+
+    Fixed FeasibleRRTStar stack error
+
+[33mcommit eb46fde755b8ab75d815556d60a72dcf32676086[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 187c781 f0bd577
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 11 18:47:17 2022 +0100
+
+    Merge pull request #46 from ethz-asl/fix/build_on_noetic
+    
+    Fix build for Ubuntu 20.04
+
+[33mcommit f0bd5774b65e9b3a9194cf7d919f6285504f78ce[m
+Author: Lukas Schmid <schmluk@mavt.ethz.ch>
+Date:   Tue Jan 11 12:18:58 2022 +0100
+
+    update C++11->14 for all sub-packages
+
+[33mcommit 27e24cbd06d6599119871dac3038f9b9ba5ac43b[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 11 10:51:54 2022 +0100
+
+    Update to more verbose build test name
+
+[33mcommit 0aa8e813885636ab6a17c762153255d6d8f929f1[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 11 10:51:17 2022 +0100
+
+    Add build test badge to readme
+
+[33mcommit ef2b8da8d057a67589f0211c241cf9c695918684[m
+Author: Lukas Schmid <schmluk@mavt.ethz.ch>
+Date:   Tue Jan 11 10:45:57 2022 +0100
+
+    Fix C++11->14 for Ubuntu 20.04
+
+[33mcommit 187c781152bbf2010f6a610c6402622806872943[m
+Author: Lukas Schmid <schmluk@mavt.ethz.ch>
+Date:   Tue Jan 11 10:07:39 2022 +0100
+
+    update gitignore
+
+[33mcommit 4fbcc0c5fdb9989bef1e1fddd35d91e582f0380e[m
+Merge: 46143ae 1f223bd
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Nov 24 09:38:30 2021 +0100
+
+    Merge pull request #45 from Jaeyoung-Lim/pr-build-tests
+    
+    Add build test CI using github actions
+
+[33mcommit 1f223bd89b4965a71ace827027351e7a89f60df1[m
+Author: Jaeyoung-Lim <jalim@ethz.ch>
+Date:   Tue Nov 23 14:22:27 2021 +0100
+
+    Enable ros noetic builds
+
+[33mcommit 95c9db56f8fbce34a138f309757bf3a7f78ca939[m
+Author: Jaeyoung-Lim <jalim@ethz.ch>
+Date:   Sun Nov 7 16:12:44 2021 +0100
+
+    Update readme with uncomment instructions
+
+[33mcommit e59e90ec5cb4926ed1dfbdb199a2bef12e0bb7f3[m
+Author: Jaeyoung-Lim <jalim@ethz.ch>
+Date:   Thu Nov 4 18:00:11 2021 +0100
+
+    Disable ros noetic for build tests
+
+[33mcommit 0bf110b8bc672c0af393b20a67cfb69c7faab2d8[m
+Author: Jaeyoung-Lim <jalim@ethz.ch>
+Date:   Thu Oct 28 12:17:32 2021 +0200
+
+    Remove simulation dependencies
+
+[33mcommit 394ac75212175c5c92d7d8bfc0173b0d1d71e595[m
+Author: Jaeyoung-Lim <jalim@ethz.ch>
+Date:   Thu Oct 28 12:14:28 2021 +0200
+
+    Add build tests using github actions
+    
+    This commit adds a build test using github actions for this repo
+
+[33mcommit 46143ae558c3d62fa2673a43cbfdd22fb6de12a9[m
+Merge: 774f0e9 56ff805
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Aug 12 17:16:31 2021 +0200
+
+    Merge pull request #43 from mansoorcheema/fix_planner_crash_rrt
+    
+    fixed planner crash due to missing return
+
+[33mcommit 56ff8051c7fcb99b417e4e8df0cb0046826891c8[m
+Author: mansoor <mansoor.cheema@tum.de>
+Date:   Thu Aug 12 16:14:27 2021 +0200
+
+    fixe planner crash due to missing return
+
+[33mcommit 774f0e922ca589945a5bad8a38eef55819e3feeb[m
+Merge: 88991c5 b663cbb
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Jul 29 09:57:40 2021 +0200
+
+    Merge pull request #42 from ethz-asl/fix/Raycast
+    
+    Made sure occupied voxels are always added
+
+[33mcommit b663cbb4c8f0df67358f2e95dff0cadc1b6a1c6c[m
+Author: René Zurbrügg <zrene@student.ethz.ch>
+Date:   Wed Jul 28 19:34:03 2021 +0200
+
+    Made sure occupied voxels are always added
+
+[33mcommit 88991c5a1eb43631aa164699ca28201f7a3c14ed[m
+Merge: 3030a8f 8ba262e
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Jun 11 07:36:54 2021 +0200
+
+    Merge pull request #41 from ethz-asl/fix/collision_checks
+    
+    Fix/collision checks
+
+[33mcommit 8ba262e4f2d9ec4f4eabbee440481669bc42bb50[m
+Author: René Zurbrügg <zrene@student.ethz.ch>
+Date:   Thu Jun 10 19:30:46 2021 +0200
+
+    linter
+
+[33mcommit 1faa365d7b2c6a57755c8dd0534cf5cd698a34a0[m
+Author: René Zurbrügg <zrene@student.ethz.ch>
+Date:   Thu Jun 10 19:29:41 2021 +0200
+
+    Changed calculation to get number of points to reach target
+
+[33mcommit 3030a8f90bb8b59b78df350c21c35541e266757f[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Apr 14 08:46:30 2021 +0200
+
+    Update README.md
+
+[33mcommit 429d4a2f71239542dab5d405b8f68376d4867fba[m
+Merge: 9c2eae0 e49e212
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Apr 12 14:33:22 2021 +0200
+
+    Merge pull request #38 from ethz-asl/feature/format_cleanup
+    
+    Feature/format cleanup
+
+[33mcommit 9c2eae0e3e8284fbe03b8fc78dca9c8e551594f1[m
+Merge: 45ea102 188b479
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Apr 12 14:32:50 2021 +0200
+
+    Merge pull request #37 from ethz-asl/fix/naive_evaluator
+    
+    fix naive evaluator and add example config
+
+[33mcommit e49e212317e468b29531c5cef0ae37d90ccda884[m
+Author: Lukas Schmid <schmluk@mavt.ethz.ch>
+Date:   Thu Mar 18 09:06:08 2021 +0100
+
+    order includes according to google style guide
+
+[33mcommit c2d85d541d34be35dc92d39e757a906a1eff84ca[m
+Author: Lukas Schmid <schmluk@mavt.ethz.ch>
+Date:   Wed Mar 17 17:33:40 2021 +0100
+
+    fix build + test example
+
+[33mcommit 985a7fe32190fbe982b91d81d0f857f4c9e84e76[m
+Author: Lukas Schmid <schmluk@mavt.ethz.ch>
+Date:   Wed Mar 17 17:22:54 2021 +0100
+
+    add and reformat based on clang-format
+
+[33mcommit 188b47933b378875788ef4e64dfd9f3c7344079e[m
+Author: Lukas Schmid <schmluk@mavt.ethz.ch>
+Date:   Tue Mar 16 21:55:16 2021 +0100
+
+    fix naive evaluator and add example config
+
+[33mcommit 45ea1022f3e970f713b180acf712948d3ddb7d10[m
+Merge: 966573e ea974b5
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Mar 15 17:25:58 2021 +0100
+
+    Merge pull request #35 from danielduberg/pr_fixed_frame_id
+    
+    Removed '/' prefix from frame_id
+
+[33mcommit 966573ebfd7bb2abbb87b9e8faef372f75c7f688[m
+Merge: 0790e7d 2dd6ee9
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Mar 15 17:18:33 2021 +0100
+
+    Merge pull request #33 from danielduberg/pr_added_return
+    
+    Added missing return statements
+
+[33mcommit ea974b55358f697c6c351a0dcf884953e288d4aa[m
+Author: Daniel Duberg <danielduberg@gmail.com>
+Date:   Fri Mar 12 12:33:51 2021 +0100
+
+    Removed '/' prefix from frame_id
+
+[33mcommit 2dd6ee9779c0d2ad2aa587b39292b01bd7ce91e6[m
+Author: Daniel Duberg <danielduberg@gmail.com>
+Date:   Fri Mar 12 12:19:23 2021 +0100
+
+    Added missing return statements
+
+[33mcommit 0790e7d26175bf7d315975a4d91548b56f9ee877[m
+Merge: f5bb382 3403011
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Feb 2 12:12:14 2021 +0100
+
+    Merge pull request #29 from aseligmann/matplotlib_fix
+    
+    eval_plotting_node - Add import for Axes3D
+
+[33mcommit 3403011f2b5bb8595941eefd742180df691d4cb6[m
+Author: aseligmann <albertsseligmann@gmail.com>
+Date:   Tue Feb 2 12:00:12 2021 +0100
+
+    Add import for Axes3D
+
+[33mcommit f5bb38249273efb039f250997ae3e90f95884679[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Oct 29 09:46:53 2020 +0100
+
+    Update README.md
+
+[33mcommit 8e64c062872878da07db3dd3fae42067b820070a[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Oct 29 09:34:34 2020 +0100
+
+    Update README.md
+
+[33mcommit 3024b866e717d01c954a5dae40384b8e815279ef[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Oct 29 09:27:17 2020 +0100
+
+    Update reconstruction_planner.yaml
+
+[33mcommit 9ad290585751fe72ff1c44694fa206ae29449c2d[m
+Merge: df1af1d b669de5
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Jul 29 20:37:56 2020 +0200
+
+    Merge pull request #24 from ethz-asl/fix/rrt_star
+    
+    Fix/rrt star
+
+[33mcommit b669de5832dcaf4ede3e236d2d54479eaf76fa1d[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Wed Jul 29 20:37:13 2020 +0200
+
+    fix crashing for shart trajectories
+
+[33mcommit 078a416c7514dd8a26969e20bbd95f0033604114[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Wed Jul 29 17:09:41 2020 +0200
+
+    minor fixes + revers backtracker
+
+[33mcommit df1af1d500f0b79e3d9b6bff429551983bfda7e0[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Jun 15 11:32:43 2020 +0200
+
+    add protobuf_catkin to rosinstall deps
+
+[33mcommit c3708c8af5eaeb42c75f654adef93bdc90c54b2a[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Tue Mar 17 12:42:10 2020 +0100
+
+    Reconstruction_planner cfg without polynomial optimization due to error
+
+[33mcommit c3818c36b5fe898edf6da89208bd28631554d7c5[m
+Merge: e367797 a147173
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Feb 18 15:20:41 2020 +0100
+
+    Merge pull request #20 from ethz-asl/fix/example
+    
+    fixed example launch files and description
+
+[33mcommit a14717319e3d0780ad01b00451490f4bb3a96242[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Tue Feb 18 15:14:36 2020 +0100
+
+    fixed example launch files and description
+
+[33mcommit e36779789d4825269c56fb16ac39eedd1e3167ea[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Feb 6 09:22:11 2020 +0100
+
+    Update Citation
+
+[33mcommit e34afcfb0aec572b6402d5e83065f0e0d2e1e99c[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Jan 27 09:35:53 2020 +0100
+
+    Update README.md
+
+[33mcommit 6c214ae9d7868dbee1411df084ec90c6d7510374[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 14 16:14:03 2020 +0100
+
+    Update README.md
+
+[33mcommit 53933c8cfa6bfc38e4bfc2805167e2f9aec4e766[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Tue Jan 14 15:38:16 2020 +0100
+
+    add ssh rosinstall
+
+[33mcommit 122a1f7f4942f4004967af2522a6547379c34322[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 14 11:27:25 2020 +0100
+
+    Update README.md
+
+[33mcommit b79a3657689ccc94f3f7c9683668224792fcf2a1[m
+Merge: 27f7a1a 4de0599
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 14 11:15:56 2020 +0100
+
+    Merge pull request #17 from ethz-asl/feature/open_source
+    
+    https rosinstall for all dependencies
+
+[33mcommit 4de0599f186dacc95ecd9b7fca9aa6e8eed2ecee[m
+Author: Lukas <schmluk@student.ethz.ch>
+Date:   Tue Jan 14 11:07:55 2020 +0100
+
+    https rosinstall for all dependencies
+
+[33mcommit 27f7a1a21bf3d7d2157492a08723cc6fb1e0ef57[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 14 10:10:39 2020 +0100
+
+    Update README.md
+
+[33mcommit a0d6f33ee4bd4584e3e618483e5f699f272bb416[m
+Merge: 6a65018 147a024
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Jan 13 16:21:08 2020 +0100
+
+    Merge pull request #16 from ethz-asl/feature/open_source
+    
+    Feature/open source
+
+[33mcommit 147a024f0e61b0d54b6c442adba3ed9d8558400e[m
+Merge: 2c12ee4 44b793e
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Jan 13 16:20:24 2020 +0100
+
+    Merge pull request #15 from ethz-asl/add-license-1
+    
+    Create LICENSE
+
+[33mcommit 44b793e7680398ef8d60e6877d724c49eeb5513c[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Jan 13 16:20:03 2020 +0100
+
+    Create LICENSE
+
+[33mcommit 2c12ee48e46299ae510b8f662e7b0908d41014c2[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Jan 10 18:44:04 2020 +0100
+
+    Update README.md
+
+[33mcommit 8f2336a62c11a20211dfe7f6a22aed993fcc1364[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Jan 10 18:07:15 2020 +0100
+
+    Update package.xml
+
+[33mcommit c5bc3a73194085e2096088596a68940ed0505695[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Fri Jan 10 16:33:13 2020 +0100
+
+    update Readme
+
+[33mcommit 14b007488a2d1448a0164495eab1149055be0efc[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Thu Jan 9 17:27:31 2020 +0100
+
+    Add and update readmes
+
+[33mcommit 03b71bd4c84ce7aa695480c96066932534362bdd[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Thu Jan 9 15:44:06 2020 +0100
+
+    add rosinstall_ssh
+
+[33mcommit e745de799692d36e67d1a5829829996f9460999b[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Thu Jan 9 13:42:33 2020 +0100
+
+    rename include dirs
+
+[33mcommit 6a6501849f160c4ee3902760fa48b0edac79082d[m
+Merge: 3576590 3d94dca
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Jan 9 09:37:52 2020 +0100
+
+    Merge pull request #14 from ethz-asl/devel/removeVoxbloxRos
+    
+    Devel/remove voxblox ros
+
+[33mcommit 3d94dca5bfc0509de256e9f36faefea8683550a5[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Wed Sep 25 17:58:22 2019 +0200
+
+    reformat code
+
+[33mcommit 8ba1129c5c549932b4f5c7624ca36bc65169996b[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Wed Sep 25 14:01:13 2019 +0200
+
+    remove calibration for now
+
+[33mcommit 5dc8459388e4aacdd5efcdf131aec0c9aba87674[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Wed Sep 25 13:53:27 2019 +0200
+
+    fix reconstruction planner
+
+[33mcommit fae21368ccc848e82607fac5ae3da26e79890e89[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Tue Sep 24 17:55:16 2019 +0200
+
+    make run+evaluate_experiment run again after refactoring
+
+[33mcommit 011abc9f81321749e103a072092f814d54a87d78[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Tue Sep 24 16:25:23 2019 +0200
+
+    make example run with new structure
+
+[33mcommit 648c23ab7fea0ade017faf0ae99030e7d5f8ad13[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Sep 23 15:46:07 2019 +0200
+
+    refactor updating
+
+[33mcommit 6aa5c03ae88a9429933299697eaa0c1abb052205[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Sep 23 13:23:22 2019 +0200
+
+    adapt mav to refactoring
+
+[33mcommit 60316f6a72d210e4cda7519c98ce613e0a1b6470[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Fri Sep 20 13:50:55 2019 +0200
+
+    factor out ros
+
+[33mcommit 048aecc94807e714cd726a963ba2ceb3b7b49c6e[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Thu Sep 19 15:43:11 2019 +0200
+
+    factor out voxblox and data
+
+[33mcommit f74b1e7982d0a63ee9bdb6928e55380f0c2cb8f9[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Thu Sep 19 11:25:58 2019 +0200
+
+    factor out voxblox and visualizer from core
+
+[33mcommit fe4ac8aa6db0c0e5783872affa7838389b8f6631[m
+Merge: d7c23ad 7d46b61
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Wed Sep 18 10:36:11 2019 +0200
+
+    merged
+
+[33mcommit d7c23ad7e32af7038eec48584a93a01323dcdd85[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Wed Sep 18 10:34:48 2019 +0200
+
+    merge intermediate branch
+
+[33mcommit 7d46b61f3e6cfd5bb610e5a98de97901d35ddf78[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Sep 17 11:58:37 2019 +0200
+
+    intermediate changes online_planner
+
+[33mcommit 3c91deda42626d748a9eb26ae14ca8ad82ce6c07[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Sep 16 14:46:30 2019 +0200
+
+    rename applications, meta package
+
+[33mcommit 2a16e339638bdc321cc6e93465451b1023239f80[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Sep 16 14:44:12 2019 +0200
+
+    create meta package
+
+[33mcommit 7adb3f5743ae428bf895989ba701d8d88ddd5047[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Sep 16 14:29:27 2019 +0200
+
+    remove unnecessary files/folders
+
+[33mcommit 96b12b43794dc3258ad54558152aeff8b76a696b[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Sep 16 14:11:11 2019 +0200
+
+    update gitignore
+
+[33mcommit 448b57421cb6b5de4afaeeee9c9d872483af2ee8[m
+Author: Yannick Huber <huberya@student.ethz.ch>
+Date:   Mon Sep 16 13:42:22 2019 +0200
+
+    current state, with partially implemented visualization structures and functions for planner
+
+[33mcommit 4f087a90e58874eb0a151febd18a824fcb01e1f3[m
+Author: Yannick Huber <huberya@student.ethz.ch>
+Date:   Mon Sep 16 13:03:12 2019 +0200
+
+    removing voxblox ros and visualization
+
+[33mcommit 63bc7d02434dbff6fd1554266fccbedfd335d6d4[m
+Author: Yannick Huber <huberya@student.ethz.ch>
+Date:   Mon Sep 16 12:52:01 2019 +0200
+
+    major refactoring and bugfixing
+
+[33mcommit cdfea9fee7be8c1f7f34ff1765f9ead8b2c96f1d[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Aug 7 00:04:01 2019 +0200
+
+    fix knn search dist
+
+[33mcommit 44048e469f2230bfb678571b9ec0e2408d910581[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Aug 6 23:59:45 2019 +0200
+
+    add simple rrt* collision updater
+
+[33mcommit 26622b307a23296201e4fa88fccf486a86e9573a[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Aug 6 14:26:45 2019 +0200
+
+    planner printing andvisualization
+
+[33mcommit d714d0383a2e5fedb17d62a33e970ac2d3d2f172[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Aug 6 14:26:26 2019 +0200
+
+    reinsert old root if encessary
+
+[33mcommit 2b57889a8049e8b8755275a48f8520f5537e6a25[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Aug 5 16:39:30 2019 +0200
+
+    fixintermediate rewiring
+
+[33mcommit 498cbacd91bb2899df5afe85b08cb3a728752b1b[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Aug 5 13:54:58 2019 +0200
+
+    color trajectories with gain
+
+[33mcommit f7d4f8cf0100953791b2bfd5fac4df07d6cd6af4[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Aug 5 13:38:10 2019 +0200
+
+    cont_yaw updater fixed
+
+[33mcommit ea22723716fe1831e0aa1e5ad19597ae85b146db[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jul 30 18:39:13 2019 +0200
+
+    merge cont_yaw_evaluator
+
+[33mcommit 9cd6a33872ef989f1d96c47302e5a27a7b2fd292[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Jul 29 16:39:28 2019 +0200
+
+    add continuous yaw planner
+
+[33mcommit 084ed84f38440aafd689fba42bf1a1b056c33434[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Jul 29 11:48:18 2019 +0200
+
+    factor out yaw planning evaluators
+
+[33mcommit 35765909140967f33d0fc8962184726a7191ae14[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jul 23 07:09:11 2019 +0200
+
+    Update README.md
+
+[33mcommit 3141e55181da17fa158fa1bc9c7069aef29915bf[m
+Merge: 9241f5b 150f0fb
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Jul 15 18:44:44 2019 +0200
+
+    Merge pull request #13 from ethz-asl/feature/cleanup
+    
+    Rename repo + clean up
+
+[33mcommit 150f0fb81541273beaa5fce0236d5c6f9e3a1ea5[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Jul 15 18:32:11 2019 +0200
+
+    Update README.md
+
+[33mcommit a2861e50162e5dbbcf7a22eb7ae22da368b50068[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Jul 15 18:05:00 2019 +0200
+
+    move repo from asldoc to mav_active_3d_planning
+
+[33mcommit 77e952b9175578e414f399866f2dd1bc6be87c98[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Jul 15 18:01:15 2019 +0200
+
+    update bbox computer
+
+[33mcommit 0dc97739d67e9d2c688aa223f866e5f8b2e6ec8b[m
+Author: Schmluk <schmluk@student.ethz.ch>
+Date:   Mon Jun 24 17:33:04 2019 +0200
+
+    include bounding box computer
+
+[33mcommit b9068a4761d0b713ddae1b6ed357b77b2381a325[m
+Merge: 92e1d2c e07a682
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jun 18 10:39:10 2019 +0200
+
+    Merge branch 'feature/cleanup' of https://github.com/ethz-asl/asldoc-2018-ma-schmid into feature/cleanup
+
+[33mcommit 92e1d2cfe368aa94f7707084ef070a18fc5b7e1e[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jun 18 10:38:41 2019 +0200
+
+    fix defaults values and accumulation
+
+[33mcommit e07a682dfd332cf5af1b720e6a588cadf7bf8b9e[m
+Merge: c98be8f 9241f5b
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Jun 12 16:43:51 2019 +0400
+
+    Merge branch 'master' into feature/cleanup
+
+[33mcommit 9241f5b882bdd5aff5395f2b1c60ce974830128e[m
+Author: Lukas Schmid <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Jun 12 14:08:16 2019 +0200
+
+    Update README.md
+
+[33mcommit 1f1193d0f5ba2b3abea86da0a147fa804c0b5fe8[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Jun 12 13:52:58 2019 +0200
+
+    fix build error
+
+[33mcommit c98be8f0a30864552f0700607ee4f7092b6c3c0f[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Jun 12 12:47:00 2019 +0200
+
+    cleanup commit to merge bugfixes to master
+
+[33mcommit 27bf04cf9fe685643af1e0648afc8d7277775797[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed May 29 15:51:03 2019 +0200
+
+    Update README.md
+
+[33mcommit 49ee68d26948e731fed36d85c27a4785d8652b7c[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed May 29 15:46:25 2019 +0200
+
+    Update README.md
+
+[33mcommit dc1d516a09ff255f3203da8f3e98ca5f0e587de3[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed May 29 13:14:43 2019 +0200
+
+    Update README.md
+
+[33mcommit 549683559b3f5f76502d82f1db30089f09824960[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon May 20 08:13:56 2019 +0200
+
+    merge odom fix
+
+[33mcommit 948ac10b1fbdcf464b6b71bff82c31016ede8a16[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu May 16 12:56:58 2019 +0200
+
+    bugfixes for fieldtest
+
+[33mcommit 055c87d549967f6a823b9adbbff11fc977069a31[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue May 14 15:32:54 2019 +0200
+
+    fixed rrt* rewiring
+
+[33mcommit d53321adddf8a104971c2a2716037d3eabad049e[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon May 13 14:25:01 2019 +0200
+
+    fix mav_trajectory_generation crash and performance for RRT*
+
+[33mcommit 0f3b82d3a4b85d1e4c9e3a6d9c55ca1ee704439c[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu May 9 15:46:01 2019 +0200
+
+    study evaluation
+
+[33mcommit 88821fd47905b85f25cabb1bec9125a3b98777ae[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed May 8 10:01:36 2019 +0200
+
+    merge plotting scrips from test/subsampling
+
+[33mcommit d8ff666a5c8dbfeffa921156da4d887c83a48134[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue May 7 16:35:21 2019 +0200
+
+    outdoor testing
+
+[33mcommit 2ed29673143f9691d54a4207da010da61378ea53[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat May 4 14:23:43 2019 +0200
+
+    feasible rotations + rotated bounding volumes
+
+[33mcommit eed7f4c59289e8c2d916601662b07a1622fc9acf[m
+Author: michaelpantic <michael.pantic@gmail.com>
+Date:   Fri May 3 11:15:49 2019 +0200
+
+    servicecalls
+
+[33mcommit a564deda520b6ea7ccf10b31a1d6179c574dd1c9[m
+Author: michaelpantic <michael.pantic@gmail.com>
+Date:   Fri May 3 10:08:22 2019 +0200
+
+    Simple GUI for Real World test (to start/stop/positionhold UAV
+
+[33mcommit 94be510e6d3a33263f71ad6eee5709689e2777b7[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri May 3 09:46:41 2019 +0200
+
+    bugfixes and space clearing
+
+[33mcommit 883492423369a0764c593d08540b915b8027dc20[m
+Merge: fac11dc 0218718
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri May 3 08:52:26 2019 +0200
+
+    fix merge
+
+[33mcommit fac11dcf661be5eac0d2542b118bfa6b12d2ef63[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri May 3 08:50:55 2019 +0200
+
+    add local clearing for trajectory generators
+
+[33mcommit 0218718e7dd1949a753e4149dfc36d8b254ab1fb[m
+Author: fabioruetz <penguin@penguin.ethz.ch>
+Date:   Thu May 2 17:09:42 2019 +0200
+
+    Constraints and config test
+
+[33mcommit 114210e5dcdf4fd218ffad799c32c2d312f3b9b8[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu May 2 15:19:19 2019 +0200
+
+    setup bounding volumes vicon room
+
+[33mcommit 47c085aa407fe1d719581a7602fb7528365785cd[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu May 2 13:54:02 2019 +0200
+
+    implement lidar model
+
+[33mcommit 7c539e51e29a2033afe55966ce5a7a0e0b3ebf25[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu May 2 13:07:02 2019 +0200
+
+    parametrization for OS-1 Lidar
+
+[33mcommit c279b55c6d76042a6968b7425f9761f264e74ac2[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu May 2 08:30:18 2019 +0200
+
+    testing for real world indoor
+
+[33mcommit 74da244bb8abeeebd46b73865a28bcedda8113bc[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu May 2 08:29:41 2019 +0200
+
+    sensor model mounting transform, flexible planning start
+
+[33mcommit cb1f5cdaa183cc04eb9d1cc36460f573910ec56d[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Apr 19 20:35:28 2019 +0100
+
+    fix voxblox serialization and planner node performance
+
+[33mcommit 70153b8f6dea05d047a7c99e555325aea185bf6d[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Apr 17 14:52:19 2019 +0100
+
+    resolve merge conflict with master pt2
+
+[33mcommit e6e47cec2039583d975f772169be0560872e322e[m
+Merge: 76cfa5f ab84e55
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Apr 17 14:50:14 2019 +0100
+
+    resolve merge conflict with master
+
+[33mcommit 76cfa5f9c078f677bee66132920d37c9838fe7f5[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Apr 17 14:42:36 2019 +0100
+
+    Planner node performance + handling update
+
+[33mcommit 567c343559f2bb41787137ababc02f891b853805[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 16 20:21:44 2019 +0100
+
+    add feasible rrt
+
+[33mcommit 9e2171592b976acdadeac89062ff42530e0fb84c[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 16 20:19:34 2019 +0100
+
+    add voxel weight evaluator
+
+[33mcommit 813a8c4e5a624f48828a6acd40227bebfbf7f3a4[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 16 12:59:00 2019 +0100
+
+    clean up code + factory
+
+[33mcommit a85f247a2cc4e42024b20d4e4dfb5e44c72185e1[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 16 12:57:29 2019 +0100
+
+    add experiment series, evaluation updated
+
+[33mcommit fe16e763267a848600eb87ab57029e80083b5479[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 16 12:56:21 2019 +0100
+
+    add simulated odometry
+
+[33mcommit 0a7dc913d0b158722b9c2ed5d65d8924e793b5ed[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Apr 10 10:05:08 2019 +0100
+
+    update experiment evaluation, allow series
+
+[33mcommit ab84e55b9c5ce703c58164f4273c65b0331b203a[m
+Merge: 16ca288 f8fccf1
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Apr 2 20:28:46 2019 +0200
+
+    Merge pull request #10 from ethz-asl/dev/rrt_star
+    
+    Dev/rrt star
+
+[33mcommit f8fccf15836bbc7f73497b9741e533a23bf4f66b[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 2 20:25:57 2019 +0100
+
+    address PR comments
+
+[33mcommit 14d37dec2b8ddd32b190bac87959e783d4f513b3[m
+Merge: 7ccc315 10cd695
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 2 13:06:26 2019 +0100
+
+    resolve merge conflicts
+
+[33mcommit e56113abe3d42622ddac93bebb4328b7572d1770[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Apr 2 12:51:59 2019 +0100
+
+    exp2 spiral + odometry simulator
+
+[33mcommit 16ca288ad771c0c9280c2598674ffb8940d99c98[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Apr 2 12:15:35 2019 +0100
+
+    Update README.md
+
+[33mcommit 10cd6951796c764aed97272f6dd06733fd8f3c36[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Sat Mar 30 11:33:08 2019 +0000
+
+    Update README.md
+
+[33mcommit 5b2cf87eefc563954d4f51346ab0b82a4a194446[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Sat Mar 30 11:14:31 2019 +0000
+
+    Update README.md
+
+[33mcommit 2d42ac6f25d37c19df09bc5bec5b37fc3f2d808f[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Sat Mar 30 11:03:14 2019 +0000
+
+    Update README.md
+
+[33mcommit 7ccc3157e5fc657a27abc0ce58e2d8c956cf4798[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Mar 29 18:16:31 2019 +0000
+
+    create RRTStar, bugfixing
+
+[33mcommit 1186ebcf1dd89ad6236e1ff54a23f2e15b50d84c[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Mar 29 16:33:30 2019 +0000
+
+    Update README.md
+
+[33mcommit 44defe8e68ef2cca994deca9f201e2090569e841[m
+Merge: eae4f7a c07684f
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Mar 28 11:22:54 2019 +0100
+
+    Merge pull request #9 from ethz-asl/dev/experiments+baseline
+    
+    Dev/experiments+baseline
+
+[33mcommit 61a6bb894791fb73187e76c27424ab64c5986da7[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Mar 27 09:34:38 2019 +0000
+
+    fix camera models
+
+[33mcommit 072998f9e99ce299df283797386020e86cdd7aa8[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Mar 23 09:08:57 2019 +0000
+
+    merge new factory commit
+
+[33mcommit a28b40e11a27d1b1830b79514ae2eaf6f4e585c1[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Mar 23 09:18:53 2019 +0000
+
+    start creating rrt_star
+
+[33mcommit c07684fbf3f86c222b7abe76c00defb3aadd1be7[m
+Merge: 5bc5a11 5e376fb
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Mar 23 09:09:30 2019 +0000
+
+    Merge branch 'dev/experiments+baseline' of https://github.com/ethz-asl/asldoc-2018-ma-schmid into dev/experiments+baseline
+
+[33mcommit 5bc5a11bcac7a3324f2c09040ed57d691651e59e[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Mar 23 09:08:57 2019 +0000
+
+    address PR comments
+
+[33mcommit 9a93a1d9a5e1fccdfed44d67b4a50ae0867db124[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Mar 19 14:38:39 2019 +0000
+
+    introduce experiment2
+
+[33mcommit a0ec25763ccb4cfdb2365754beb529ad9b6ae8cf[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Mar 18 17:11:37 2019 +0000
+
+    fix visualization all equal color
+
+[33mcommit abaf1d67f708f64e48e2167ef227234f345d4872[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Mar 18 16:23:51 2019 +0000
+
+    added yaw planning evaluators, fix visualization
+
+[33mcommit 801ca28c2fa7b93cf06da97b8db9266cce4614b1[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Mar 18 10:05:03 2019 +0000
+
+    fix backtracker crashing on reverse
+
+[33mcommit 277361245148af191079142d3d608acb1a8011b5[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Mar 14 15:55:33 2019 +0000
+
+    simple yaw planner, fix visualization
+
+[33mcommit 5e376fb3ed28231a29e69df27812ae2e2517e421[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Mar 14 13:36:50 2019 +0000
+
+    Update README.md
+
+[33mcommit b0390633d950f4fdf346c3d4508e2fd3c74ea215[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Mar 14 09:58:15 2019 +0000
+
+    remove public constructors
+
+[33mcommit eae4f7ae85ce902602fdd3bcc0033796e360b11e[m
+Merge: 0cdb8a9 32c3b38
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Mar 14 10:48:33 2019 +0100
+
+    Merge pull request #8 from ethz-asl/dev/refactor_planner_structure
+    
+    Dev/refactor planner structure
+
+[33mcommit 4180c8bfef0f395993a00e17e888fe0af6b4e28f[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Mar 13 14:26:48 2019 +0000
+
+    everything revisited for runtime, tons of bugfixes
+
+[33mcommit c622ff431bb6fff6ec551f231a9fa4b00e369c9e[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Mar 12 14:31:25 2019 +0000
+
+    refactored trajectory evaluators and raycaster->sensor_model
+
+[33mcommit 6ef4a971bcb01e4dff3ca351d0440d6348b9f726[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Mar 8 19:07:01 2019 +0000
+
+    clean up modules, no longer everything header only
+
+[33mcommit db90d731df616035883519f40a34b6bd5ac7a3a6[m
+Merge: 252ab10 32c3b38
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Mar 8 17:00:16 2019 +0000
+
+    resolve merge + update
+
+[33mcommit 252ab109b577d0820350f9b864af3dadae2baceb[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Mar 7 10:59:09 2019 +0000
+
+    clean up for rebase
+
+[33mcommit 32c3b3832f3f2a108659e9eb1b2cfb419eb22d51[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Mar 7 10:47:07 2019 +0000
+
+    refactor all modules
+
+[33mcommit da092024edb68b9498cca5a8f7de202099aa8468[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Mar 6 10:33:20 2019 +0000
+
+    merge stash
+
+[33mcommit 34884e6936045541a6b0fcbfcaa8a209769325e3[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Mar 5 14:14:08 2019 +0000
+
+    remove debug print from rrt
+
+[33mcommit 115070d36109ce5c2fb16c10b4d516f795d08531[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Mar 5 13:58:49 2019 +0000
+
+    swap kdtree for nanoflann
+
+[33mcommit d8ff68a7389ab508459d948284fe96ba31fcd0ed[m
+Merge: 582e154 9941530
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Mar 5 12:31:53 2019 +0000
+
+    Merge branch 'dev/experiments+baseline' of https://github.com/ethz-asl/asldoc-2018-ma-schmid into dev/experiments+baseline
+
+[33mcommit 9941530721f30436030bb7fa16bdfe3c64117df0[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Mar 5 11:31:33 2019 +0000
+
+    Update README.md
+
+[33mcommit c930e85e9afe026bf6a28b214aa4a62f3184c7a7[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Mar 4 13:52:22 2019 +0000
+
+    Decouple classes from ROS, pt2
+
+[33mcommit 39ee5f343262aae9d396161187a1dfe36c549681[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Feb 28 10:47:02 2019 +0000
+
+    Constructor clean up example
+
+[33mcommit 582e1548d65ef00f9adc1c7dfc94343d11c74db9[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Feb 27 16:44:33 2019 +0000
+
+    fix axes on SimulationOverview
+
+[33mcommit fe9789ebcbf1cfaa2761cd9112b79fe6c4aef944[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Feb 27 14:54:08 2019 +0000
+
+    move out ray casters, some overhaul
+
+[33mcommit fa7202bbf0e187d46630cf8ff1a577cad348ef6b[m
+Merge: 42f6eb2 fcdb445
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Feb 27 14:06:46 2019 +0000
+
+    Merge branch 'dev/experiments+baseline' of https://github.com/ethz-asl/asldoc-2018-ma-schmid into dev/experiments+baseline
+
+[33mcommit fcdb445dfe82d7a900d1123e85a6aefc80230d0d[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Feb 27 13:06:28 2019 +0000
+
+    Update readme pt2
+
+[33mcommit c243e8a704b0a45fdb05ae2449e4170faf5f3602[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Feb 27 10:26:54 2019 +0000
+
+    Update Readme pt1
+
+[33mcommit 42f6eb2d86949e61e085780dc4cf556e1cf6f358[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Feb 26 14:10:49 2019 +0000
+
+    Lots of important bugfixes
+
+[33mcommit f37429c0701a36018f3a1ab9174f6182b84f6ed8[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Feb 26 08:50:05 2019 +0000
+
+    Update MT repo readme
+
+[33mcommit 2a8c8e9963b4bfc36043410d775f38bd2a4d0a69[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Feb 25 17:54:00 2019 +0000
+
+    add Periodic updater and visualization param
+
+[33mcommit a4ac640f154b8fa5816ae7b06e612119d804ec49[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Feb 25 17:09:52 2019 +0000
+
+    added modules for nbvp + bugfixes
+
+[33mcommit 24f254357542ebdcd09c725ca34e8a4b087ab757[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Feb 25 16:37:57 2019 +0000
+
+    fixed performance evaluation
+
+[33mcommit b98da4ca2fac32829db284d423f3d8c77b7eb1f7[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Feb 23 14:24:43 2019 +0000
+
+    redo cpu usage
+
+[33mcommit 513c82944696a69df44dc90b40551569bd12cf25[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Feb 23 00:31:42 2019 +0000
+
+    bugfix performance_log + plotting
+
+[33mcommit fcd4baf1ee726b0f897ac4694182e7787cfb747c[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Feb 22 23:35:13 2019 +0000
+
+    created performance log + plotting
+
+[33mcommit 435ef036aaaf581d2ab36dc17eb0c34da17746ab[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Feb 22 13:46:01 2019 +0000
+
+    update experiment eval pipeline with meshes and rosbags
+
+[33mcommit 94a9663c37f553ff6c28b130b373ef3bd9af0069[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Feb 19 14:47:41 2019 +0000
+
+    created updaters, reordered module directory
+
+[33mcommit 04c696956bd309cf4abe5067b3d8f0321ebd6735[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Feb 19 11:33:23 2019 +0000
+
+    created backtrackers, bugfixes + cleanup
+
+[33mcommit b9c748dbadf92c322e86ffdbba0c6e33814be708[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Feb 18 09:19:03 2019 +0000
+
+    Refactored the planner structure, now module based
+
+[33mcommit 36abb1a34a5c481423012da805c40832b7762a92[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Feb 15 10:47:13 2019 +0000
+
+    move out unreal_cv_ros to own repo
+
+[33mcommit b41a5329564b44e9ce7ebbbac3e6f12284e617b5[m
+Merge: 1e588ba 0cdb8a9
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Feb 11 17:05:53 2019 +0000
+
+    Merge remote-tracking branch 'origin/master' into dev/te_frontier
+
+[33mcommit 1e588ba08108ce76bcf42426b964188246507cbb[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Feb 11 16:33:24 2019 +0000
+
+    Clean up and reorganize experiment evaluation tools
+
+[33mcommit 0cdb8a905c564a98ea715832874cbb69a4db50ec[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Feb 11 16:04:09 2019 +0000
+
+    Update README.md
+
+[33mcommit b81e9f115ec491a651e8e0b999fa735f114100dd[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Feb 11 14:38:36 2019 +0000
+
+    Update README.md
+
+[33mcommit bb787dedc8838a1deb45d78976eeff81820a4cd1[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Mon Feb 11 14:20:38 2019 +0000
+
+    Update Readme unreal stuff
+
+[33mcommit 27138e0ff06a1d873725585140e5e4777a69d94d[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Feb 11 11:03:14 2019 +0000
+
+    Refactor unreal pipeline+plugin, now with exact pointclouds!
+
+[33mcommit cb99a584d466e8fc6d0f5e4351dd1a26277401f0[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Feb 9 11:29:57 2019 +0000
+
+    small clean up after evaluation pipeline introduction
+
+[33mcommit 5ca7838752dd97b25b17d2f6eac59b3dc26da14f[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Sat Feb 9 09:52:17 2019 +0000
+
+    create simulation evaluation pipeline
+
+[33mcommit d26109df29ab2e5ef1099f364ab4d5fd6056f5f2[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Feb 8 15:15:06 2019 +0000
+
+    Update README.md
+
+[33mcommit e9deba1f258d6bbc891f74312810e36e5ac79f7b[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Feb 8 14:55:49 2019 +0000
+
+    update unreal pipeline to new working standard, include evaluation data creation
+
+[33mcommit addcbd088286a67f3e4bbe4695b2cb13e5b149ee[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Thu Feb 7 15:12:45 2019 +0000
+
+    Update README.md
+
+[33mcommit 73f222964e77fa7254ed56a936370b09fdad5a71[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Feb 7 15:32:13 2019 +0000
+
+    include unreal collisioninfo
+
+[33mcommit a4e8607bdf43973d4e84946dc8b1551b2646ab1c[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Feb 7 15:31:15 2019 +0000
+
+    include unreal collisioninfo
+
+[33mcommit e3cde329d773c35a760733a41fe9a7a4442acc77[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Feb 1 13:15:53 2019 +0000
+
+    Update README.md
+
+[33mcommit d6694ff35f5108ffebf880529ec3ba39a2d44831[m
+Merge: 143d60b 73eeb58
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Feb 1 13:06:14 2019 +0000
+
+    Merge pull request #6 from ethz-asl/dev/feasible_trajectories
+    
+    Dev/feasible trajectories
+
+[33mcommit 73eeb58ffec32d36276ac7eadb42df9a7735d0ac[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Jan 31 11:07:01 2019 +0000
+
+    clean up
+
+[33mcommit 82aea7208d7308017640cf588a18ce8f5a801e99[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 29 13:23:09 2019 +0000
+
+    Update README.md
+
+[33mcommit f7c455cb6330b198a13b8cda47ddf7765fd9b1fd[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jan 29 13:44:49 2019 +0000
+
+    Created simple working trajectory generators
+
+[33mcommit 83d6f0d0a00039ff850d7fe4e8c1cf5cda0ed0ad[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Jan 18 17:08:06 2019 +0000
+
+    fix sim_manager
+
+[33mcommit c0e94106428aaefd63ca224c6b7c17a9d8d56da5[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Jan 18 17:03:43 2019 +0000
+
+    clean up simulation manager with readme
+
+[33mcommit 43615a8fe11f510aa921679462528c1e69800b08[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Jan 18 16:01:27 2019 +0000
+
+    Update README.md
+
+[33mcommit db1849b33ca2974d65552ae481d34e02c4dd62cb[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Jan 18 15:07:03 2019 +0000
+
+    important fixes and overhaul of the uecv plugin and uecv_ros_client
+
+[33mcommit 5be502b5ad4c26e988fe873b88c33f201940e1d9[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Jan 17 09:48:21 2019 +0000
+
+    fix unreal coordinate transformation pt. 2
+
+[33mcommit b77d9cb5a4dd2d683eb42dcc6246d5fb315e2b5d[m
+Merge: f146d6c 7d4623d
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jan 15 16:42:42 2019 +0000
+
+    Merge branch 'fix/unreal_positioning' into dev/feasible_trajectories
+
+[33mcommit 7d4623dd305be276671c9db484c714d1c92c666e[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jan 15 16:35:25 2019 +0000
+
+    clean up
+
+[33mcommit 3b82c92a6912184b645fbcc5679d820e849f92d9[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jan 15 16:32:07 2019 +0000
+
+    fix relative coordinate system transformationsgit add unreal_cv_ros/src/unreal_ros_client.py !
+
+[33mcommit 143d60bd78bbd3d4fd00cf4058962c9841b2a932[m
+Merge: 9caedd4 7d4623d
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Tue Jan 15 16:06:45 2019 +0000
+
+    Merge pull request #5 from ethz-asl/fix/unreal_positioning
+    
+    hotfix for relative coordinate system transformations in unreal_ros_client
+
+[33mcommit f146d6c335a24c54c6bfba949aeefe6db5c443d4[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Jan 15 11:07:59 2019 +0000
+
+    start creating 2 new trajectory generators, some fixes on TENaive
+
+[33mcommit c8475f75926eef95afb752c5e7acbdce975eac3a[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Jan 11 17:28:23 2019 +0000
+
+    Create README.md
+
+[33mcommit c4a53a9a478e27c71a03b30e48d3bdebdf4a45dc[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Jan 11 17:44:32 2019 +0000
+
+    finish planner scaffolding (pt2)
+
+[33mcommit 01fa27b4cb962d078e4be8c8399a69f614f6af82[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Jan 11 17:42:15 2019 +0000
+
+    finish planner scaffolding
+
+[33mcommit c77bdb24be5a1149aecfb90945576cb57b64d757[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Dec 19 11:08:15 2018 +0000
+
+    clean up
+
+[33mcommit 1c9b83e7403af494a69162839e36aa36ca14ca4a[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Dec 19 11:05:04 2018 +0000
+
+    update CMakeList
+
+[33mcommit eb4b5125710c27d1d18ec2458d6cb5e292b3c96d[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Dec 19 11:00:40 2018 +0000
+
+    initial planner_structure
+
+[33mcommit cc87fdf3b8c1983f4f607ab725749846a4a6b064[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Nov 30 14:33:33 2018 +0000
+
+    clean up code
+
+[33mcommit 9caedd4d50f8ae9d37db62cfd5efcf0a0a8e1913[m
+Merge: d9a0617 cc87fdf
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Fri Nov 30 13:36:47 2018 +0000
+
+    Merge pull request #2 from ethz-asl/dev/first_planner
+    
+    Dev/first planner
+
+[33mcommit 8875491e9be6f6a87e990721c0059efd46026e0e[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Nov 28 16:02:01 2018 +0100
+
+    Update README.md
+
+[33mcommit 10f1c34e6bb8ed7af0558dd1f7e9a71c71190cad[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Nov 28 15:46:04 2018 +0000
+
+    finalize examples
+
+[33mcommit e96512f8870fe52fd1affd149c3e5a147f3602ec[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Nov 28 12:50:01 2018 +0000
+
+    incerase mav spawn stbaility
+
+[33mcommit 9c700081e0a464117d694cfa3d4f64fc3e9d535f[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Nov 28 12:28:28 2018 +0000
+
+    update ros_client yaw
+
+[33mcommit 12a6f62a6fcb48795991769808bc600c5403b956[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Nov 26 18:59:33 2018 +0000
+
+    random planner added
+
+[33mcommit 2a3cdf22ae6d47a6d78709d20c08d15e83eec9e5[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Nov 26 13:50:12 2018 +0000
+
+    refactor unreal vision pipeline
+
+[33mcommit d9a0617190c83eb686f20c9054089faebfc2dc63[m
+Merge: 297068d 6a01dc5
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Nov 21 14:37:18 2018 +0100
+
+    Merge pull request #1 from ethz-asl/dev/full_routine
+    
+    Dev/full routine
+
+[33mcommit 6a01dc5ee101f8bd94b261938719cc6aea91e389[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Mon Nov 19 10:20:26 2018 +0100
+
+    fix fast mode execution
+
+[33mcommit 238ac1663133e8b67706805d35a3e2dd03740926[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Nov 14 22:19:07 2018 +0100
+
+    fix build error
+
+[33mcommit a0475bc3a75f11e5c0cf745823653358e8f60515[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Nov 14 16:08:38 2018 +0100
+
+    Update README.md
+
+[33mcommit 77c6f18fb1396bcdccd70b558213dbea90436ec3[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Nov 14 15:45:56 2018 +0100
+
+    Create CommandCode.cpp
+
+[33mcommit 8ab868d88001c9c3275d15d51ff88f7ce98d351f[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Nov 14 14:34:00 2018 +0100
+
+    Update README.md
+
+[33mcommit eb854e4336541b4c4062f164a57b11aab8a39791[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Nov 14 15:31:46 2018 +0100
+
+    update to current working status
+
+[33mcommit b3ae230a4c5f7a86deeb0ac0f2ad040f859df8c5[m
+Merge: c8cfa43 9714838
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Nov 1 11:54:25 2018 +0100
+
+    merge readme
+
+[33mcommit c8cfa43851b862f9766c2b03001dd082de7a9376[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Thu Nov 1 11:51:21 2018 +0100
+
+    organize as meta package
+
+[33mcommit 97148385b2f9a68b00a19292768a3937db0e87e8[m
+Author: Schmluk <36043993+Schmluk@users.noreply.github.com>
+Date:   Wed Oct 31 13:52:21 2018 +0100
+
+    Update README.md
+
+[33mcommit f194443345f82037ac9ee91f26596aecdff7e3d9[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Wed Oct 31 13:48:40 2018 +0100
+
+    update launch + readme
+
+[33mcommit 277869695402fbc657b90e63574f7ddc58da166c[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Tue Oct 30 15:53:50 2018 +0100
+
+    include pcl color, make uecv client exclusive
+
+[33mcommit 297068d74b7aea1d61a356b052177348383b1d79[m
+Author: Lukas Schmid <schmluk@student.ethz.ch>
+Date:   Fri Oct 26 14:06:37 2018 +0200
+
+    initial commit

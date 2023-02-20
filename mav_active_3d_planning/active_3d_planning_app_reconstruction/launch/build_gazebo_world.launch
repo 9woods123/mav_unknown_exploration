@@ -1,0 +1,64 @@
+<launch>
+  <!-- Gazebo arguments -->
+  <arg name="mav_name" default="firefly"/>
+  <arg name="gui" default="true"/>
+  <arg name="verbose_gazebo" default="true"/>
+  <arg name="world_name" default="house"/>
+  <arg name="enable_ground_truth" default="true" />
+  <arg name="debug" default="false"/>
+  <arg name="paused" default="true"/>
+  <arg name="verbose" default="false"/>
+
+  <arg name="gazebo_gt_pose" default=  "/$(arg mav_name)/ground_truth/pose_with_covariance"/>
+  <arg name="init_x" default="0.0"/>
+  <arg name="init_y" default="0.0"/>
+
+
+  <!-- Voxblox arguments -->
+  <arg name="voxel_size" default="0.10"/>
+  <arg name="voxels_per_side" default="16"/>
+  <arg name="ray_length" default="5.0"/>
+  <arg name="method" default="merged"/>
+  <arg name="verbose_voxblox" default="false"/>
+   <arg name="record_data" default="false"/>
+
+  <!-- Unreal Routine arguments -->
+  <arg name="uecv_mode" default="fast"/>
+  <arg name="slowdown" default="0.0"/>
+  <arg name="delay" default="3.0"/>  
+  
+  <!-- Unreal Sensor arguments (ground_truth, kinect, gaussian_depth_noise) -->
+  <arg name="model_type" default="gaussian_depth_noise"/>
+  <arg name="flatten_distance" default="6.0"/>
+  <arg name="maximum_distance" default="0.0"/>
+  
+  <!-- Odometry  arguments (random_walk, ground_truth) -->
+  <arg name="odom_noise_model" default="random_walk"/>
+  
+  <!--  Planner arguments-->
+  <!-- <arg name="planner_config" default="planners/example_config.yaml"/> -->
+    <arg name="planner_config" default="planners/reconstruction_planner.yaml"/>
+
+  <!--  Experiment arguments -->  
+  <arg name="experiment_config" default="CityBuilding.yaml"/>
+  
+  
+
+  <!-- *** Run the Simulation *** -->
+  <!-- Load experiment config -->
+  <rosparam command="load" file="$(find active_3d_planning_app_reconstruction)/cfg/experiments/$(arg experiment_config)"/>
+  <!-- Setup empty gazebo world for physics-->
+  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find rotors_gazebo)/models"/>
+  <env name="GAZEBO_RESOURCE_PATH" value="${GAZEBO_RESOURCE_PATH}:$(find rotors_gazebo)/models"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find planning_gazebo_launch)/example" />
+    <arg name="debug" value="$(arg debug)" />
+    <arg name="paused" value="$(arg paused)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="verbose" value="$(arg verbose)"/>
+  </include>
+
+
+  <!-- RVIZ Visualization -->
+</launch>
