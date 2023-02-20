@@ -168,30 +168,6 @@ catkin build mav_active_3d_planning # Builds this package only
 catkin build # Builds entire workspace, recommended for full install.
 ```
 
-## Data Repository
-Related resources, such as experiment scenarios and ground truth point clouds, can be downloaded from [here](https://www.polybox.ethz.ch/index.php/s/6vhPDINcISbEogg). 
-
-# Examples
-## Configuring a Planner
-The `active_3d_planning_app_reconstruction` is an application package, that launches an active\_3d\_planner.
-A verbose example of how planner configurations are specified is given in `cfg/planners/example_config.yaml`.
-The example planner uses local motion primitives to expand new segments and the number of unknown voxels as gain formulation. 
-To see the planner in action, start an unreal\_cv\_ros game, e.g. [CityBuilding](#Data-Repository), make sure to tab out of game control (Alt+Tab for Binary, Ctrl+Shift+F1 for Editor) and then run 
-```
-roslaunch active_3d_planning_app_reconstruction example.launch
-```
-The planner will be built from the config file and visualized in RVIZ. 
-A useful parameter to set is `verbose_modules: true`, as all available params of all built modules will be printed to console. 
-
-![mav_3d_ex_config](https://user-images.githubusercontent.com/36043993/58561558-aaa84280-8227-11e9-9b89-def052db17a8.png)
-
-A local motion primitive based planner starting exploration.
-
-**Note:** The reconstruction planner used in the paper is not the demo one and is given in `active_3d_planning_app_reconstruction/cfg/planners/reconstruction_planner.yaml`. You can run it using
-```
-roslaunch active_3d_planning_app_reconstruction example.launch planner_config:=planners/reconstruction_planner.yaml
-```
-
 ## Run an Experiment
 In order to record data of the example planner, run 
 ```
