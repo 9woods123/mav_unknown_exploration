@@ -3,8 +3,7 @@
 **mav\_active\_3d\_planning** is a modular framework for online informative path planner (IPP) design. 
 We provide a modular framework for creating, evaluating and employing primarily sampling based, receding horizon algorithms that optimize a gain while minimizing a cost.
 
-Online-IPP for **Exploration** (left), **3D Reconstruction** (right) & **more**.
-![git_gif](https://user-images.githubusercontent.com/36043993/72073736-cbbe2f00-32f0-11ea-977a-dbe7e7a05098.gif)
+
 
 # Table of Contents
 **Credits**
