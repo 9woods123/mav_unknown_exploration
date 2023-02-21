@@ -1,9 +1,8 @@
 
 
+# mav_unknown_exploration
 
-![Build Tests (Ubuntu 18.04 + ROS Melodic, Ubuntu 20.04 + ROS Noetic)](https://github.com/ethz-asl/mav_active_3d_planning/actions/workflows/build_test.yml/badge.svg)
-# mav\_active\_3d\_planning
-**mav\_active\_3d\_planning** is a modular framework for online informative path planner (IPP) design. 
+**mav_unknown_exploration** is a modular framework for online informative path planner (IPP) design. 
 
 Based on great work of Lukas Schmid who provides a modular framework for creating, evaluating and employing primarily sampling based, receding horizon algorithms that optimize a gain while minimizing a cost. 
 
