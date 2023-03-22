@@ -143,6 +143,8 @@ void cmd_pub_callback(const ros::TimerEvent& e)
                                 // traj_point.lifetime=ros::Duration(0);
                                 // pub_markers_.publish(traj_point);
 
+
+
                       traj_count++;
                   }
                   else{

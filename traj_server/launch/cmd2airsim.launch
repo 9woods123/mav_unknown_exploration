@@ -1,0 +1,10 @@
+<launch>
+
+  <arg name="mav_name" default="firefly"/>
+  <group ns="$(arg mav_name)">
+        <node name="cmd2airsim" pkg="traj_server" type="cmd2airsim" output="screen" >
+                <!-- <remap from="command/trajectory" to="/command/trajectory" /> -->
+        </node>
+  </group>
+
+</launch>

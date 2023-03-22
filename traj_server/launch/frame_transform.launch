@@ -1,0 +1,13 @@
+<launch>
+
+  <arg name="mav_name" default="firefly"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="enu_to_world_pub" args="0 0 0 1.57 0 0  world_enu world 100"/>
+
+  <group ns="$(arg mav_name)">
+        <node name="frame_transform" pkg="traj_server" type="frame_transform" output="screen" >
+                <!-- <remap from="command/trajectory" to="/command/trajectory" /> -->
+        </node>
+  </group>
+
+</launch>
