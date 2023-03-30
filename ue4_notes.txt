@@ -1,0 +1,96 @@
+1. ue4 download and setup:
+
+git clone -b 4.27 git@github.com:EpicGames/UnrealEngine.git
+cd UnrealEngine
+./Setup.sh
+./GenerateProjectFiles.sh
+make
+
+
+
+
+
+
+2. airsim download and setup:
+git clone https://github.com/Microsoft/AirSim.git
+cd AirSim
+./setup.sh
+./build.sh     //doing this may can find the lstdc++ ，
+
+/usr/bin/ld: can not found -lstdc++
+sudo apt-get install libstdc++-8-dev
+
+using: 
+
+find / -name libstdc++.* 
+
+and create a link 
+
+ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 /usr/lib/x86_64-linux-gnu/libstdc++.so
+
+refer to : https://quantum6.blog.csdn.net/article/details/103433636?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-103433636-blog-114581683.pc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-103433636-blog-114581683.pc_relevant_3mothn_strategy_recovery&utm_relevant_index=2
+
+
+
+
+
+3. rebuild the blocks using current version UnrealEngine 
+
+sudo ./UnrealEngine/GenerateProjectFiles.sh ~/AirSim/Unreal/Environments/Blocks/Blocks.uproject -game
+cd ~/AirSim/Unreal/Environments/Blocks/
+sudo make BlocksEditor
+
+
+
+
+
+4. OK, now open the UE4Editor, and select the uproject (~/AirSim/Unreal/Environments/Blocks/Blocks.uproject)
+
+./UnrealEngine/Engine/Binaries/Linux/UE4Editor 
+
+if failed:
+
+cd ~/AirSim/Unreal/Environments/Blocks/
+sudo chmod 777 * 
+right click to open Blocks.uproject.
+
+
+
+
+
+
+If your default GCC version is not 8 or above (check using gcc --version)
+Install gcc >= 8.0.0: 
+sudo apt-get install gcc-8 g++-8
+
+OR:
+1. Add the PPA repository for GCC 9:
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+
+2. Update the package list:
+sudo apt update
+
+3. Install GCC 9:
+sudo apt install g++-9
+
+4.Make GCC 9 the default compiler:
+
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 90
+
+
+
+test ros tutorial:
+
+cd ros/
+catkin build -DCMAKE_C_COMPILER=gcc-8 -DCMAKE_CXX_COMPILER=g++-8
+
+
+
+test the mav
+
+pip3 install msgpack-rpc-python
+python3 ~/AirSim/PythonClient/multirotor/takeoff.py 
+python3 ~/AirSim/PythonClient/multirotor/takeoff.py 
+
+
+
